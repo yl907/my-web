@@ -12,6 +12,7 @@
 </script>
 
 <template>
+<div class="thisModule">  
   <h1>"Free Palestine": US Airman Dies After Setting Himself On Fire Over Gaza</h1>
   
   <main>
@@ -61,6 +62,8 @@
   </div>
 
   </main>
+
+</div>
 </template>
 
 <style scoped>
