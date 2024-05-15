@@ -6,6 +6,9 @@
   import Grid2 from './components/3_2Grid.vue'
   import Grid3 from './components/3_3Grid.vue'
   import Grid4 from './components/3_4Grid.vue'
+  import Float1 from './components/4_1Float.vue'
+  import Float2 from './components/4_2Float.vue'
+  import Float3 from './components/4_3Float.vue'
 </script>
 
 <template>
@@ -22,6 +25,12 @@
   <Grid3></Grid3>
   <hr />
   <Grid4></Grid4>
+  <hr />
+  <Float1></Float1>
+  <hr />
+  <Float2></Float2>
+  <hr />
+  <Float3></Float3>
   <hr />
 </template>
 

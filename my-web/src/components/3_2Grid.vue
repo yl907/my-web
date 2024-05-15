@@ -43,6 +43,11 @@
     </aside>
     <footer>Contact me@mysite.com<span>(column: 1/3, row:3)</span></footer>
   </div>
+
+  <div class="summary">
+    <p>1.grid-column: 1/3; 表示该grid item占用了第[1, 3)列。</p>
+    <p>1.grid-row: 2; 表示该grid item占用了第2行。</p>
+  </div>
 </template>
 
 <!-- Line-based placement -->
@@ -99,4 +104,13 @@
     font-weight: bolder;
   }
 
+  .summary {
+    color: white;
+    background-color: rgba(18, 17, 22, 0.733);
+    border-radius: 2em;
+    padding-top: 1em; padding-bottom: 1em;  padding-left: 2em; padding-right: 2em;
+    border: 1px solid;
+    margin: 1em;
+    width: fit-content;
+  }
 </style>

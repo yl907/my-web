@@ -43,6 +43,21 @@
     </aside>
     <footer>Contact me@mysite.com<span>(area-nickname:footer)</span></footer>
   </div>
+
+  <div class="summary">
+    <p>在grid container中指定m行n列的grid item是什么名字，然后在grid item中给当前元素进行命名，这个名字专门用于grid.</p>
+
+    <p>
+      比如有一个grid container中的各行各列按如下划分：<br />
+      grid-template-areas:<br />
+      "header header"<br />
+      "sidebar content"<br />
+      "footer footer";
+    </p>
+
+    <p>有一个grid item进行如下命名：<br />
+      grid-area: header;</p>
+  </div>
 </template>
 
 <!-- Positioning with grid-template-areas -->
@@ -108,4 +123,13 @@
     font-weight: bolder;
   }
 
+  .summary {
+    color: white;
+    background-color: rgba(18, 17, 22, 0.733);
+    border-radius: 2em;
+    padding-top: 1em; padding-bottom: 1em;  padding-left: 2em; padding-right: 2em;
+    border: 1px solid;
+    margin: 1em;
+    width: fit-content;
+  }
 </style>
