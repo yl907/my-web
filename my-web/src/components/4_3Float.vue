@@ -35,6 +35,11 @@
     penatibus et magnis dis parturient montes, nascetur ridiculus mus.
   </p>
 
+  <div class="summary">
+    <p>1.display:flow-root, this line of code is to create a BFC(Block Formatting Context). This is another way to perform similar effect of 'clear: xxx', this will make float element and other elements as long as they are inside 'display: flow-root' positioning like one Block Formatting Context.</p>
+    <p>2.About BFC, you can refer to <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flow_layout/Block_and_inline_layout_in_normal_flow#elements_participating_in_an_inline_formatting_context">Block and Inline layout in normal flow</a> for more information.</p>
+  </div>
+
 </template>
 
 <style scoped>
@@ -69,6 +74,15 @@
     padding: 10px;
     color: purple;
     display: flow-root;
+  }
+
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 
   .summary {

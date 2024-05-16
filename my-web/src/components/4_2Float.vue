@@ -33,6 +33,11 @@
     penatibus et magnis dis parturient montes, nascetur ridiculus mus.
   </p>
 
+  <div class="summary">
+    <p>1.If you want following elements not to wrap around the floated element, use 'clear: left' (if the floated elment is 'float: left') <br />
+      ('clear: left' means the element is moved down to clear past left floats.)</p>
+  </div>
+
 </template>
 
 <style scoped>

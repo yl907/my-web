@@ -33,6 +33,10 @@
     penatibus et magnis dis parturient montes, nascetur ridiculus mus.
   </p>
 
+  <div class="summary">
+    <p>1.If you want to float a element at left side, use 'float: left;'</p>
+  </div>
+
 </template>
 
 <style scoped>

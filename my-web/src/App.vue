@@ -9,6 +9,8 @@
   import Float1 from './components/4_1Float.vue'
   import Float2 from './components/4_2Float.vue'
   import Float3 from './components/4_3Float.vue'
+  import RelativePositioning from './components/5_1Positioning.vue'
+  import AbsolutePositioning from './components/5_2Positioning.vue'
 </script>
 
 <template>
@@ -31,6 +33,10 @@
   <Float2></Float2>
   <hr />
   <Float3></Float3>
+  <hr />
+  <RelativePositioning></RelativePositioning>
+  <hr />
+  <AbsolutePositioning></AbsolutePositioning>
   <hr />
 </template>
 
