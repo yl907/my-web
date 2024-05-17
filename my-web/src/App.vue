@@ -11,6 +11,10 @@
   import Float3 from './components/4_3Float.vue'
   import RelativePositioning from './components/5_1Positioning.vue'
   import AbsolutePositioning from './components/5_2Positioning.vue'
+  import z_index from './components/5_3Positioning.vue'
+  import FixedPositioning from './components/5_4Positioning.vue'
+  import StickyPositioning from './components/5_5Positioning.vue'
+
 </script>
 
 <template>
@@ -37,6 +41,12 @@
   <RelativePositioning></RelativePositioning>
   <hr />
   <AbsolutePositioning></AbsolutePositioning>
+  <hr />
+  <z_index></z_index>
+  <hr />
+  <FixedPositioning></FixedPositioning>
+  <hr />
+  <StickyPositioning></StickyPositioning>
   <hr />
 </template>
 
