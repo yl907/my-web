@@ -96,6 +96,10 @@
       padding: none;
       margin: none;
     }
+
+    a {
+      color: white;
+    }
   }
 
 </style>

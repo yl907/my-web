@@ -14,6 +14,8 @@
   import z_index from './components/5_3Positioning.vue'
   import FixedPositioning from './components/5_4Positioning.vue'
   import StickyPositioning from './components/5_5Positioning.vue'
+  import MediaQueries1 from './components/6_1MediaQueries.vue'
+  import MediaQueries2 from './components/6_2MediaQueries.vue'
 
 </script>
 
@@ -47,6 +49,10 @@
   <FixedPositioning></FixedPositioning>
   <hr />
   <StickyPositioning></StickyPositioning>
+  <hr />
+  <MediaQueries1></MediaQueries1>
+  <hr />
+  <MediaQueries2></MediaQueries2>
   <hr />
 </template>
 

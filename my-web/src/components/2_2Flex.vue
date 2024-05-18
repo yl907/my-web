@@ -43,9 +43,10 @@
     color: white;
     background-color: rgba(18, 17, 22, 0.733);
     border-radius: 2em;
-    padding-top: 1em; padding-bottom: 1em;  padding-left: 2em; padding-right: 2em;
+    padding: 2em;
     border: 1px solid;
     margin: 1em;
+    height: fit-content;
     width: fit-content;
   }
 
