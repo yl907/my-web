@@ -16,6 +16,9 @@
   import StickyPositioning from './components/5_5Positioning.vue'
   import MediaQueries1 from './components/6_1MediaQueries.vue'
   import MediaQueries2 from './components/6_2MediaQueries.vue'
+  import MultipleColumns1 from './components/7_1MultipleColumns.vue'
+  import MultipleColumns2 from './components/7_2MultipleColumns.vue'
+  import MultipleColumns3 from './components/7_3MultipleColumns.vue'
 
 </script>
 
@@ -53,6 +56,12 @@
   <MediaQueries1></MediaQueries1>
   <hr />
   <MediaQueries2></MediaQueries2>
+  <hr />
+  <MultipleColumns1></MultipleColumns1>
+  <hr />
+  <MultipleColumns2></MultipleColumns2>
+  <hr />
+  <MultipleColumns3></MultipleColumns3>
   <hr />
 </template>
 
