@@ -80,6 +80,10 @@
       </p>
     </div>
   </div>
+
+  <div class="summary">
+    <p>1.'break-inside: avoid': this will make every card not to break to other column(stay one piece in one column).</p>
+  </div>
 </template>
 
 <style scoped>

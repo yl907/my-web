@@ -7,3 +7,4 @@ this part is refer to MDN doc CSS layout guide(https://developer.mozilla.org/en-
 4.my-web\src\components\4_xFloat.vue -- Talk about float! <br />
 5.my-web\src\components\5_xPositioning.vue -- Concepts about position: xxx; <br />
 6.my-web\src\components\6_xMediaQueries.vue -- learning about Responsive Web Design, Media Queies. <br />
+7.my-web\src\components\7_xMultipleColumns.vue -- Multicol layout, often used in newspaper. <br />
